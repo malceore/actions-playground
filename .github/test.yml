@@ -1,3 +1,4 @@
+---
 name: test
 
 on:
@@ -19,6 +20,6 @@ jobs:
         with:
           node-version: 12.19.0
           cache: 'npm'
-                  
+
       - name: Run Tests
         run: npm test
